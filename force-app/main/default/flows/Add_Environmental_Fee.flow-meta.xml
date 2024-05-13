@@ -137,7 +137,7 @@
     </recordLookups>
     <recordUpdates>
         <name>update_trigger_price_book</name>
-        <label>update trigger price book</label>
+        <label>update triggering record price book</label>
         <locationX>176</locationX>
         <locationY>539</locationY>
         <connector>

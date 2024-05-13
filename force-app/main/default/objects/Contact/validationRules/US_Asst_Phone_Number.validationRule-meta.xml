@@ -3,7 +3,7 @@
     <fullName>US_Asst_Phone_Number</fullName>
     <active>true</active>
     <description>Only allows US format phone numbers</description>
-    <errorConditionFormula>!REGEX( Phone , &quot;^((\\+1)?\\s?\\(\\d{3}\\)\\s?\\d{3}\\-\\d{4})?$&quot;)</errorConditionFormula>
+    <errorConditionFormula>!REGEX(  AssistantPhone  , &quot;^((\\+1)?\\s?\\(\\d{3}\\)\\s?\\d{3}\\-\\d{4})?$&quot;)</errorConditionFormula>
     <errorDisplayField>AssistantPhone</errorDisplayField>
     <errorMessage>Please enter a US Phone number</errorMessage>
 </ValidationRule>
